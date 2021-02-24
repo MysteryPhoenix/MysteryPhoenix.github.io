@@ -3,6 +3,11 @@
 <html lang="en">
 
     <style>
+
+        html{
+            scroll-behavior: smooth;
+        }
+
         body{
             
             background-color:rgb(0, 39, 65);
@@ -26,12 +31,12 @@
         nav{
             background-color: rgb(1, 1, 1);
             height: 7vw;
-            width:100%;
             border-radius: 10px;
             padding:1%;
             margin:auto;
             text-align:center;
             list-style: none;
+            
         }
 
         nav ul{
@@ -135,9 +140,9 @@
     
     <nav>
         <ul>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">OUR PRODUCT</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#one">ABOUT</a></li>
+            <li><a href="#two">OUR PRODUCT</a></li>
+            <li><a href="#three">CONTACT</a></li>
         </ul>
     </nav>
 
@@ -145,48 +150,50 @@
     <br>
 
     <div id="main">
-
-        <div id="inside">
-            <h2 id="sub">ABOUT</h2>
-            <img src="https://www.ordorite.com/wp-content/uploads/2017/06/tech-and-software-image.jpg" class="right">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-
-
-        <br>
-
-
-        <div id="inside">
-            <h2 id="sub">OUR PRODUCT</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices mi vel turpis euismod, ut placerat ipsum dapibus. Integer enim lorem, molestie at porta ac, tempor sed sem. Praesent efficitur nulla egestas dui laoreet, in dictum justo lobortis. Fusce non ex massa. Sed at ex imperdiet, iaculis turpis eget, consectetur neque. Nullam accumsan, nibh in iaculis congue, justo magna mattis leo, id eleifend eros velit in lectus. Duis porttitor eget enim eu placerat. Morbi id ex velit. Sed varius vestibulum tellus, a luctus felis porttitor nec. Nulla porta erat ipsum, sed volutpat velit finibus vitae.</p>
-            <img src="https://www.belkin.com/images/product_webdam/98164618/renditions/webdam.web.1000.1000.jpeg" class="left">
-            <p>Suspendisse vel magna blandit, ullamcorper nulla in, efficitur lorem. Pellentesque nec dui sit amet augue iaculis ullamcorper. Praesent efficitur enim ut neque feugiat, sit amet egestas ipsum vestibulum. Ut eu hendrerit ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse convallis leo ante, nec vestibulum orci laoreet pretium. Maecenas nunc est, tincidunt ut feugiat et, aliquam ut dolor. Maecenas turpis augue, pellentesque nec felis eget, vulputate hendrerit urna. Mauris suscipit quam in malesuada ultrices. Maecenas rutrum augue sed dolor ullamcorper molestie. Nam non vulputate odio. Praesent sit amet blandit lorem, eu fringilla velit. Maecenas lacinia, nibh vitae cursus fermentum, odio sapien iaculis enim, nec porta mauris sapien quis arcu. Cras et lorem ornare, egestas eros in, consectetur mauris. Sed non leo purus. Sed ullamcorper, purus dictum aliquam malesuada, lacus felis feugiat nisi, et luctus est quam in massa.</p>
-            <p>Cras vel vestibulum elit. Phasellus sed ultrices lacus. Integer dictum tristique placerat. Cras ac ex sagittis, luctus tortor nec, placerat lectus. Cras dapibus dui id ultricies bibendum. Integer rutrum cursus ex, a blandit odio dapibus a. Suspendisse nec condimentum nibh. Ut non diam sollicitudin, aliquam metus eget, fermentum ipsum. Curabitur pulvinar suscipit mi, a dictum ligula pellentesque at. Morbi nisi neque, suscipit id justo a, imperdiet vestibulum mi. Proin vel iaculis sem, non placerat ex. Pellentesque rutrum imperdiet dapibus. Sed cursus, ipsum quis ultrices euismod, turpis nulla sagittis turpis, id vestibulum turpis enim at nibh.</p>
-            <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1589581018-belkin-smart-speaker-1589580992.jpg?crop=1xw:1xh;center,top&resize=480:*" class="right">
-            <p>Nam finibus tortor sem, et ultrices leo euismod vulputate. Etiam suscipit libero enim, ac feugiat sapien auctor a. Donec scelerisque fringilla ipsum, eget congue massa. Nam suscipit purus ante, non suscipit mauris hendrerit at. Phasellus bibendum turpis id eleifend mollis. Maecenas at lorem purus. Sed et erat nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula nisi non mauris sodales aliquam. Curabitur sollicitudin quam a mi auctor varius. Nulla ultrices a arcu ac maximus. Duis felis tortor, iaculis eget cursus vel, luctus eu est. Ut imperdiet diam eu leo sollicitudin, eget efficitur ligula condimentum. Nulla orci orci, semper eget quam at, tempus dictum eros.</p>
-            <p>Nullam pharetra finibus gravida. Nullam eu aliquet felis. Cras non est rhoncus, rhoncus arcu eget, rutrum eros. Morbi ut ultricies sapien. Suspendisse non euismod ipsum. Curabitur fermentum quam vitae eros malesuada tempus quis suscipit massa. Quisque a blandit dolor. Nulla facilisi. Phasellus blandit neque quis posuere euismod. Quisque ornare bibendum est, ornare luctus est. Nunc quis augue quis lorem cursus sodales. Curabitur sodales ex sed imperdiet eleifend.</p>
-        </div>
+        <section id="one">
+            <div id="inside">
+                <h2 id="sub">ABOUT</h2>
+                <img src="https://www.ordorite.com/wp-content/uploads/2017/06/tech-and-software-image.jpg" class="right">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </section>
 
 
         <br>
 
+        <section id="two">
+            <div id="inside">
+                <h2 id="sub">OUR PRODUCT</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices mi vel turpis euismod, ut placerat ipsum dapibus. Integer enim lorem, molestie at porta ac, tempor sed sem. Praesent efficitur nulla egestas dui laoreet, in dictum justo lobortis. Fusce non ex massa. Sed at ex imperdiet, iaculis turpis eget, consectetur neque. Nullam accumsan, nibh in iaculis congue, justo magna mattis leo, id eleifend eros velit in lectus. Duis porttitor eget enim eu placerat. Morbi id ex velit. Sed varius vestibulum tellus, a luctus felis porttitor nec. Nulla porta erat ipsum, sed volutpat velit finibus vitae.</p>
+                <img src="https://www.belkin.com/images/product_webdam/98164618/renditions/webdam.web.1000.1000.jpeg" class="left">
+                <p>Suspendisse vel magna blandit, ullamcorper nulla in, efficitur lorem. Pellentesque nec dui sit amet augue iaculis ullamcorper. Praesent efficitur enim ut neque feugiat, sit amet egestas ipsum vestibulum. Ut eu hendrerit ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse convallis leo ante, nec vestibulum orci laoreet pretium. Maecenas nunc est, tincidunt ut feugiat et, aliquam ut dolor. Maecenas turpis augue, pellentesque nec felis eget, vulputate hendrerit urna. Mauris suscipit quam in malesuada ultrices. Maecenas rutrum augue sed dolor ullamcorper molestie. Nam non vulputate odio. Praesent sit amet blandit lorem, eu fringilla velit. Maecenas lacinia, nibh vitae cursus fermentum, odio sapien iaculis enim, nec porta mauris sapien quis arcu. Cras et lorem ornare, egestas eros in, consectetur mauris. Sed non leo purus. Sed ullamcorper, purus dictum aliquam malesuada, lacus felis feugiat nisi, et luctus est quam in massa.</p>
+                <p>Cras vel vestibulum elit. Phasellus sed ultrices lacus. Integer dictum tristique placerat. Cras ac ex sagittis, luctus tortor nec, placerat lectus. Cras dapibus dui id ultricies bibendum. Integer rutrum cursus ex, a blandit odio dapibus a. Suspendisse nec condimentum nibh. Ut non diam sollicitudin, aliquam metus eget, fermentum ipsum. Curabitur pulvinar suscipit mi, a dictum ligula pellentesque at. Morbi nisi neque, suscipit id justo a, imperdiet vestibulum mi. Proin vel iaculis sem, non placerat ex. Pellentesque rutrum imperdiet dapibus. Sed cursus, ipsum quis ultrices euismod, turpis nulla sagittis turpis, id vestibulum turpis enim at nibh.</p>
+                <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1589581018-belkin-smart-speaker-1589580992.jpg?crop=1xw:1xh;center,top&resize=480:*" class="right">
+                <p>Nam finibus tortor sem, et ultrices leo euismod vulputate. Etiam suscipit libero enim, ac feugiat sapien auctor a. Donec scelerisque fringilla ipsum, eget congue massa. Nam suscipit purus ante, non suscipit mauris hendrerit at. Phasellus bibendum turpis id eleifend mollis. Maecenas at lorem purus. Sed et erat nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula nisi non mauris sodales aliquam. Curabitur sollicitudin quam a mi auctor varius. Nulla ultrices a arcu ac maximus. Duis felis tortor, iaculis eget cursus vel, luctus eu est. Ut imperdiet diam eu leo sollicitudin, eget efficitur ligula condimentum. Nulla orci orci, semper eget quam at, tempus dictum eros.</p>
+                <p>Nullam pharetra finibus gravida. Nullam eu aliquet felis. Cras non est rhoncus, rhoncus arcu eget, rutrum eros. Morbi ut ultricies sapien. Suspendisse non euismod ipsum. Curabitur fermentum quam vitae eros malesuada tempus quis suscipit massa. Quisque a blandit dolor. Nulla facilisi. Phasellus blandit neque quis posuere euismod. Quisque ornare bibendum est, ornare luctus est. Nunc quis augue quis lorem cursus sodales. Curabitur sodales ex sed imperdiet eleifend.</p>
+            </div>
+        </section>
 
-        <div id="inside">    
-            <h2 id="sub">CONTACT</h2>
-            <div class="flex-container">
-                <div>
-                    <h3>LinkedIn</h3>
-                </div>
+        <br>
 
-                <div>
-                    <h3>Instagram</h3>
-                </div>
+        <section id="three">
+            <div id="inside">    
+                <h2 id="sub">CONTACT</h2>
+                <div class="flex-container">
+                    <div>
+                        <h3>LinkedIn</h3>
+                    </div>
 
-                <div>
-                    <h3>Facebook</h3>
+                    <div>
+                        <h3>Instagram</h3>
+                    </div>
+
+                    <div>
+                        <h3>Facebook</h3>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
 
         <br>
